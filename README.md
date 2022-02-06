@@ -1,4 +1,4 @@
-# contador
+# CONTADOR
 Practica de HTML + CSS + JS
 
 - La función de la página es simple hay dos botones con el cual vas a poder sumar o restarle 1 al contador.
