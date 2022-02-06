@@ -1,0 +1,118 @@
+* {
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #e4e4e4fb;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+  background-repeat: repeat;
+  animation: bg-animation .2s infinite;
+  opacity: .9;
+  visibility: visible;
+}
+
+@keyframes bg-animation {
+    0% { transform: translate(0,0) }
+    10% { transform: translate(-5%,-5%) }
+    20% { transform: translate(-10%,5%) }
+    30% { transform: translate(5%,-10%) }
+    40% { transform: translate(-5%,15%) }
+    50% { transform: translate(-10%,5%) }
+    60% { transform: translate(15%,0) }
+    70% { transform: translate(0,10%) }
+    80% { transform: translate(-15%,0) }
+    90% { transform: translate(10%,5%) }
+    100% { transform: translate(5%,0) }
+}
+
+
+/*----------------------------------------------------------------------*/
+
+.contenedor {
+    display: block;
+    position: relative;
+    margin: 60px 250px;
+    padding:0 ;
+    background-repeat: 
+    no-repeat;
+    width: 800px;
+    height: 500px;
+    border-radius: 60px;
+    overflow: auto;
+    background: rgba(121, 245, 125, 0.849);
+    box-shadow: 2px 2px 10px #999;
+}
+
+.contador {
+    background: rgba(76, 175, 79, 0.795);
+    margin: 0;
+    width: auto;
+    height: 240px;
+    text-align: center;
+}
+#valor {
+    text-shadow: 9px 9px #999;
+    color: #fff;
+    font-size: 200px;
+}
+
+button {
+    display: inline-block;
+    position: absolute;
+    font-size: 40px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 300px;
+    height: 100px;
+  }
+.suma {
+      bottom: 60px;
+      left: 50px;
+  }
+.resta {
+      bottom: 60px;
+      right: 50px;
+  }
+
+  
+button:hover {background-color: #3e8e41}
+  
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+}
+
+.footer {
+    text-shadow: 2px 2px rgba(153, 153, 153, 0.747);
+    color: #3e8e41;
+    
+}
